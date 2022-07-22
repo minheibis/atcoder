@@ -1,15 +1,15 @@
-from collections import deque
-
 n, q = map(int, input().split())
-a = deque(list(map(int, input().split())))
+a = list(map(int, input().split()))
+
+r = 0
 for _ in range(q):
     t, x, y = map(int, input().split())
+    x = (x-r-1) % n
+    y = (y-r-1) % n
     if t == 1:
-        tmp = a[x-1]
-        a[x-1] = a[y-1]
-        a[y-1] = tmp
+        a[x], a[y] = a[y], a[x]
     elif t == 2:
-        a.rotate(1)
+        r += 1
     else:
-        print(a[x-1])
+        print(a[x])
 
