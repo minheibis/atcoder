@@ -18,5 +18,5 @@ for si in S:
             else:
                 count_let[i] += count_let[i-1]
                 count_let[i] %= MOD
-    # print("si, count_let: ", si, count_let)
+    print("si, count_let: ", si, count_let)
 print(count_let[len(list_let)-1])
