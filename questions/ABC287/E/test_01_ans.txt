@@ -1,0 +1,16 @@
+[(0, 'abracadabra'), (1, 'bracadabra'), (2, 'racadabra'), (3, 'acadabra'), (4, 'cadabra'), (5, 'adabra'), (6, 'dabra'), (7, 'abra'), (8, 'bra'), (9, 'ra'), (10, 'a')]
+[(0, 'abracadabra'), (1, 'bracadabra'), (2, 'racadabra'), (3, 'acadabra'), (4, 'cadabra'), (5, 'adabra'), (6, 'dabra'), (7, 'abra'), (8, 'bra'), (9, 'ra'), (10, 'a')]
+[(1, 'bracadabra'), (3, 'acadabra'), (5, 'adabra'), (7, 'abra'), (9, 'ra')]
+[(3, 'acadabra'), (7, 'abra')]
+[(7, 'abra')]
+1
+2
+1
+3
+1
+2
+1
+4
+1
+2
+1
